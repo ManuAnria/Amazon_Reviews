@@ -12,6 +12,8 @@ To run the program, simply execute the demo_reviews.py file and follow the promp
 
 Here is an example of the URL the user should provide: https://www.amazon.es/echo-dot-2022/product-reviews/B09B8X9RGM/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews
 
+In order to get to this URL, click on the reviews of the product, and then click "See all reviews".
+
 Once the program has finished scraping the reviews, it will save them to an Excel file in the same directory as the program. The name of the file will include the name of the product you scraped reviews for.
 
 This program allows you to receive an email with the Excel file containing the reviews that you scraped using this program. 
