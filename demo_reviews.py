@@ -49,7 +49,7 @@ user_email = simpledialog.askstring(title="Email",
                                     prompt="Indicate the email where you want to receive the reviews file:")
 
 # Send email with the file output
-sender_email = 'manuipath@gmail.com'
+sender_email = 'MY_EMAIL'
 
 # SMTP server settings for Gmail
 smtp_server = 'smtp.gmail.com'
