@@ -18,7 +18,8 @@ Once the program has finished scraping the reviews, it will save them to an Exce
 
 This program allows you to receive an email with the Excel file containing the reviews that you scraped using this program. 
 
-You will be asked to enter the email address of the recipient.
+You will need to complete the sender email adress and password in the "variables.env" file.
+Aditionally, you will be asked to enter the email address of the recipient.
 
 Once the program has established a connection to the email server and sent the email, it will display a success message in the console.
 ## Prerequisites
