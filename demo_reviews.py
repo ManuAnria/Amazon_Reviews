@@ -59,7 +59,6 @@ smtp_port = 587  # or 465 if using SSL/TLS
 load_dotenv('variables.env')
 username = os.getenv('MY_EMAIL')
 password = os.getenv('MY_PASSWORD')
-print(username)
 
 # Excel file to attach
 file_path = 'amazon review {0}.xlsx'.format(reviews[0].product_name)
